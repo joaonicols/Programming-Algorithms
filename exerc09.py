@@ -1,0 +1,9 @@
+# Exercício 09: Reajuste salarial
+
+salario_atual = float(input("Salário atual: R$ "))
+
+aumento = salario_atual * 0.15
+novo_salario = salario_atual + aumento
+
+print(f"Aumento: R$ {aumento:.2f}")
+print(f"Novo salário: R$ {novo_salario:.2f}")
